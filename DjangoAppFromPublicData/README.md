@@ -1,6 +1,14 @@
 
 
-**Links**
+**Public Data and Django Examples**
+
+[LA Times Homicide Application](http://homicide.latimes.com/)
+[Sunlight Foundation Influence Explorer](http://influenceexplorer.com/about)
+[Sunlight Foundation Influence Explorer API](http://data.influenceexplorer.com/api/)
+[Chicago Tribune School Report Card](http://schools.chicagotribune.com/)
+[Never Events](http://aidianholder.net/portfolio/projects/neverevents/)
+[Texas Tribune Salaries Explorer](http://salaries.texastribune.org/)
+
 
 
 
