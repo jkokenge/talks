@@ -5,6 +5,7 @@
     <title>Build a Django App from Public Data, the next step in your Django journey</title>
     <link rel="stylesheet" href="reveal-js/css/reveal.min.css">
     <link rel="stylesheet" href="reveal-js/css/theme/sky.css" id="theme"> 
+    <link rel="stylesheet" href="reveal-js/css/zenburn.css">
     <!--Add support for earlier versions of Internet Explorer -->
     <!--[if lt IE 9]>
     <script src="lib/js/html5shiv.js"></script>
@@ -30,117 +31,113 @@
 
             <!-- ALL SLIDES GO HERE -->
             <!-- Each section element contains an individual slide -->
-            <section>
-                <h2>Build a Django App from Public Data, the next step in your Django journey</h2>
-                <h3>django-app-public-data.omahajoe.org</h3> 
-                <h3>Sept. 8, 2015</h3>      
-            </section>
 
-             <section>
+            <section>
                 <h1>Joe Kokenge</h1>
-                <h2>San Antonio Express-News</h2>
+                <h3>San Antonio Express-News</h2>
                 <h3>@josephkokenge</h3>
-            </section>
-
-            <section>
-                <h1>What is Web Scraping anyway?</h1>
-            </section>
-
-            <section>
-                <h2>Processing html into a more useful format like .csv.</h2>
-            </section>
-
-            <section>
-                <a href="http://espn.go.com/mlb/schedule"><h2>URL: http://espn.go.com/mlb/schedule</h2></a>
-                <img src="images/espn_mlb_screenshot.png" alt="ESPN MLB Screenshot" />
-            </section>
-
-            <section>
-                <p style="font-size: 32px; text-align:left; font-color:white;">
-                2014-06-22,Boston at Oakland,4:05,Lester vs Milone<br /> 
-                2014-06-22,LA Dodgers at San Diego,4:10,Ryu vs Stults<br /> 
-                2014-06-22,Milwaukee at Colorado,4:10,Lohse vs Matzek<br /> 
-                2014-06-22,San Francisco at Arizona,4:10,Bumgarner vs Bolsinger<br />  
-                2014-06-22,Texas at LA Angels,8:00,Darvish vs Shoemaker<br /> 
-                </p>
-            </section>
-
-            <section>
-                <h1>But, why?!</h1>
-            </section>
-
-            <section>
-                <ul>
-                    <li class="fragment"><h2>small utilities...</h2></li>
-                    <li class="fragment"><h2>Power a web service...</h2></li>
-                    <li class="fragment"><h2>Feed a Django application...</h2></li>
-                    <li class="fragment"><h2>Drive a twitter bot...</h2></li>
-                    <li class="fragment"><h2>Gather information for analyis...</h2></li>
-                </ul>
-                <h3>...use your imagination</h3>
-            </section>
-
-            <section>
-                <h1>Ok...so, HOW?</h1>
-            </section>
-
-            <section>
-                <h1>Use Libraries!</h1>
-                <ul>
-                    <li class="fragment"><h2>Requests</h2></li>
-                    <li class="fragment"><h2>Beautiful Soup<h2></li>
-                    <li class="fragment"><h2>Mechanize</h2></li>
-                    <li class="fragment"><h2>Scrapy</h2></li>
-                </ul>
-                <h3>And, Think of a Web page as a poorly designed API.</h3>
-            </section>
-
-            <section>
-                <h1>First:</h1>
-
-                <ul>
-                  <h2>Make page request.</h2>
-                </ul>
-            </section>
-
-            <section>
-                <h1>Next, make your soup.</h1>
-                <ul>
-                    <h2>soup = BeautifulSoup(html)</h2>
-                </ul>
-                <h3>(Then, eat it.)</h3>
-            </section>
-
-            <section>
-                <h1>More than one page? cache!</h1>
-                <a href="http://projects.propublica.org/docdollars/search?state[id]=44"><h4>http://projects.propublica.org/docdollars/search?state[id]=44</h4></a>
+                <h3>Sept. 8, 2015</h3>  
             </section>
             
+
             <section>
-                <h1>What to do with your data?</h1>
+                <h2>Build a Django App from Public Data, the next step in your Django journey</h2>    
+            </section>
+
+            <section>
+                <h1>First, a little history...</h1>
+                <img src="images/ksljw_masthead.png" alt="Image of Lawrence Journal-World Masthead Logo" />
+            </section>
+
+              <section>
+                 <img src="images/chicagocrime.png" alt="Image of chicagocrime.org" />
+                 <p style="font-size:85%">...chicagocrime.org was the first public Django-powered site not run by the Lawrence Journal-World. <span style="vertical-align:super;font-size:65%">1</span></p>
+                 <p style="float:right;font-size:75%">Adrian Holovaty</p>
+            </section>
+
+            <section>
+                <h2>Ten years later:</h2>
+                <ul>
+                    <li>Instagram</li>
+                    <li>Pinterest</li>
+                    <li>Disqus</li>
+                    <li>Orbitz</li>
+                    <li>Rdio</li>
+                    <li>Mozilla</li>
+                    <li>Prezi</li>
+                </ul>
+                <p>Not bad for a few nerds hacking in a basement in Lawrence, Kansas, eh? <span style="vertical-align:super;font-size:65%">2</span></p></p>
+                <p style="float:right">Jacob Kaplan-Moss</p>
+            </section>
+
+            <section>
+                 <h2>Still, News Too!</h2>
                   <ul>
-                    <li class="fragment"><h2>CSV</h2></li>
-                    <li class="fragment"><h2>Spreadsheet/Google Spreadsheet<h2></li>
-                    <li class="fragment"><h2>Database</h2></li>
+                    <li>National Geographic</li>
+                    <li>LA Times</li>
+                    <li>Texas Tribune</li>
+                    <li>San Antonio Express-News</li>
+                    <li>Sunlight Foundation</li>
+                    <li>Chicago Tribune</li>
+                    <li>Washington Post</li>
+                    <li style="text-decoration: line-through;">New York Times</li>
+                    <p style="float:right;font-size:65%">switched to Rails...hipsters</p>
                 </ul>
             </section>
-            
-             <section>
-                <h2>Use mechanize for page interactions</h2>
-                <a href="http://webapps.rrc.state.tx.us/PDQ/generalReportAction.do"><h4>http://webapps.rrc.state.tx.us/PDQ/generalReportAction.do</h4></a>
+
+
+            <section>
+                <img src="images/mamabird.jpg" alt="Mother bird feeding babies" />
+                <h3>Digesting raw data for easier mass consumption</h3>
+
             </section>
-            
-            
+
+            <section>
+                <h1>Simple Purpose</h1>
+                <h1>=</h1>
+                <h1>Simple Code</h1>
+            </section>
+
+            <section>
+                <h1>4 views</h1>
+                <h2 style=" text-transform: lowercase;"><pre><code>def index(request):</code></pre></h2>
+                <h2 style=" text-transform: lowercase;"><pre><code>def estab(request, estab_id):</code></pre></h2>
+                <h2 style=" text-transform: lowercase;"><pre><code>def inspection(request, inspection_key):</code></pre></h2>
+                <h2 style=" text-transform: lowercase;"><pre><code>def search(request):</code></pre></h2>   
+            </section>
+
+            <section>
+                <h1>4 templates</h1>
+                <h2>index.html</h2>
+                <h2>estab.html</h2>
+                <h2>inspection.html</h2>
+                <h2>search.html</h2>
+                <p style="float:right;">+BASE.html</p>   
+            </section>
+
+          <section>
+                <h1>3 models</h1>
+                <h2 style=" text-transform: lowercase;"><pre><code>class GeocodedEstab(models.Model):</code></pre></h2>
+                <h2 style=" text-transform: lowercase;"><pre><code>class Inspection(models.Model):</code></pre></h2>
+                <h2 style=" text-transform: lowercase;"><pre><code>class Description(models.Model):</code></pre></h2> 
+            </section>
+
              <section>
-                <h1>Ethics:</h1>
+                <h1>4 queries</h1>
+                <p>Inspection.objects.all().order_by('-date')[:500]</p>
+                <p>Inspection.objects.all().filter(estab_id=estab_id).order_by('date')</p>
+                <p>Description.objects.all().filter(inspection_key=inspection_key)</p>
+                <p>GeocodedEstab.objects.all().filter(name__icontains=s_query)</p>   
+            </section>
+
+            <section>
+                <h1>Intangibles...</h1>
                   <ul>
-                    <li class="fragment"><h3>Sleep (the opposite of multi-threading)</h3></li>
-                    <li class="fragment"><h3>Should you do it?<h3></li>
-                    <li class="fragment"><h3>Follow the golden rule</h3></li>
+                    <li class="fragment"><h2>Community good</h2></li>
+                    <li class="fragment"><h2>Motivation to deploy<h2></li>
                 </ul>
             </section>
-            
-            
+  
             <section>
                 <h1>Resources</h1>
                   <ul>
@@ -162,9 +159,27 @@
     <script src="reveal-js/lib/js/head.min.js"></script>
     <script src="reveal-js/js/reveal.min.js"></script>
 
-    <script>
+  <script>
         // Required, even if empty.
         Reveal.initialize({
+            dependencies: [
+        // Cross-browser shim that fully implements classList - https://github.com/eligrey/classList.js/
+        { src: 'reveal-js/js/classList.js', condition: function() { return !document.body.classList; } },
+
+        // Interpret Markdown in <section> elements
+        { src: 'reveal-js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+        { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+
+        // Syntax highlight for <code> elements
+        { src: 'reveal-js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+
+        // Zoom in and out with Alt+click
+        { src: 'reveal-js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+
+        // Speaker notes
+        { src: 'reveal-js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+
+        ]
         });
     </script>
 </body>
