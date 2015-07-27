@@ -14,8 +14,11 @@
 
 [Texas Tribune Salaries Explorer](http://salaries.texastribune.org/)
 
+[Data.gov](http://www.data.gov/)
 
+[San Antonio Restaurant Inspectons](http://www.sanantonio.gov/Health/FoodLicensing/FoodEstablishmentInspections.aspx)
 
+[San Antonio Restaurant Inspections Raw Feed](http://samhd.tx.gegov.com/San%20Antonio/search.cfm)
 
 
 
