@@ -30,6 +30,18 @@ erje
 
 [Data.gov](http://www.data.gov/)
 
+[Census Data](http://census.ire.org/)
+
+[SF Open Data](https://data.sfgov.org/)
+
+[NYC MTA Data](http://web.mta.info/developers/developer-data-terms.html#data)
+
+[Sports Football Reference](http://www.pro-football-reference.com/)
+
+[30 Places for Open Data](http://blog.visual.ly/data-sources)
+
+[FOIA](https://www.ifoia.org/)
+
 [Readme Link](https://github.com/jkokenge/talks/tree/master/DjangoAppFromPublicData)
 
 
