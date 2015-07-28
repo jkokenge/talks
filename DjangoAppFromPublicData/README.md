@@ -4,7 +4,7 @@ hrehr
 erje
 
 
-**Public Data and Django Examples**
+**Links**
 
 [LA Times Homicide Application](http://homicide.latimes.com/)
 
