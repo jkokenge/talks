@@ -30,6 +30,8 @@ erje
 
 [Data.gov](http://www.data.gov/)
 
+[Census Reporter](http://censusreporter.org/)
+
 [Census Data](http://census.ire.org/)
 
 [SF Open Data](https://data.sfgov.org/)
@@ -41,6 +43,8 @@ erje
 [30 Places for Open Data](http://blog.visual.ly/data-sources)
 
 [FOIA](https://www.ifoia.org/)
+
+[Restaurant Inspection Full Repo](https://github.com/sa-express-news/food_estab_inspecs)
 
 [Readme Link](https://github.com/jkokenge/talks/tree/master/DjangoAppFromPublicData)
 
