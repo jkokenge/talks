@@ -1,9 +1,35 @@
 **PREMISE**
 
+After I've worked a basic tutorial or two, I often struggle with my next steps with a new framework.  I'm not yet ready for a large, enterprise type application. I still need more practice, but tutorials are often boring, ToDo apps, blogs, a useless demo app, those are no fun. 
+
+**Solution: Public Data!**
+
+Public data is everywhere.  It's about everything. (You can surely find a dataset that piques your interest.)  Working with a dataset that's prebuilt and, essentially, unchanging also lets you focus on specific components of a framework.  In the case of Django, using public data as a starter lets you focus on templates, views, models and basic URL routing (the fundamental basics) while leaving other topics for later.
+
+Also, building an application isn't just about messing around with it's components.  Applications are made to be deployed!  Finding a public dataset that interests you, that's valuable to your community, will give you the motivation to push through to complete deployment of your Django application.  
+
+**History**
+
+2003-2004 Django was built by developers at the Lawrence Journal-World
+
+The first public facing application not associated with the Lawrence Journal-World was the now defunct (RIP) chicagocrime.org built by Django co-founder Adrian Holovaty and launched in May 2005.  The initial public release of Django as a framework followed shortly thereafter in July of 2005.
+
+Ten years later, a list of companies that use Django reads like a Who's Who of the Internet.  Despite that success, many news organizations still use Django to serve public data.
+
+**Examples** 
+
+The common theme running through all public data serving Django applications, from chicagocrime.org through to the present day, is that they essentially digest the raw public data and make it easier for mass consumption.  We'll see this theme again and again as we look at examples of Django applications that serve public data.  The applications will all look different, but their basic functionality is the same regardless of the origin of the data which backs them.
+
+**Examples**
+
+[LA Times Homicide Application](http://homicide.latimes.com/)     
+
+
+
+
+
 
 **Links**
-
-[LA Times Homicide Application](http://homicide.latimes.com/)
 
 [Sunlight Foundation Influence Explorer](http://influenceexplorer.com/about)
 
