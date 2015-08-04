@@ -23,7 +23,10 @@ The common theme running through all public data serving Django applications, fr
 **Links**
 
 [LA Times Homicide Application](http://homicide.latimes.com/)                
-ajls;kdfjasdl;     
+This site grew out of the desire to report on every homicide in LA County.  So, it's a database that was built by hand by reporters/developers at the Times.  But, you could do something similar with a FOIA request, made yearly, let's say, or every six months to your local police department.
+
+[Sunlight Foundation Influence Explorer](http://influenceexplorer.com/about)
+
 
 
 
@@ -31,8 +34,6 @@ ajls;kdfjasdl;
 
 
 **Links**
-
-[Sunlight Foundation Influence Explorer](http://influenceexplorer.com/about)
 
 [Sunlight Foundation Influence Explorer API](http://data.influenceexplorer.com/api/)
 
