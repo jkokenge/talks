@@ -20,9 +20,10 @@ Ten years later, a list of companies that use Django reads like a Who's Who of t
 
 The common theme running through all public data serving Django applications, from chicagocrime.org through to the present day, is that they essentially digest the raw public data and make it easier for mass consumption.  We'll see this theme again and again as we look at examples of Django applications that serve public data.  The applications will all look different, but their basic functionality is the same regardless of the origin of the data which backs them.
 
-**Examples**
+**Links**
 
-[LA Times Homicide Application](http://homicide.latimes.com/)     
+[LA Times Homicide Application](http://homicide.latimes.com/)
+ajls;kdfjasdl;     
 
 
 
