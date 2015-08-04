@@ -1,7 +1,4 @@
-talk text here here her
-
-hrehr
-erje
+**PREMISE**
 
 
 **Links**
