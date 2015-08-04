@@ -22,7 +22,7 @@ The common theme running through all public data serving Django applications, fr
 
 **Links**
 
-[LA Times Homicide Application](http://homicide.latimes.com/)                     
+[LA Times Homicide Application](http://homicide.latimes.com/) 
 ajls;kdfjasdl;     
 
 
