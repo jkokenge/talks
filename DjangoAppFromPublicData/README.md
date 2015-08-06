@@ -45,7 +45,7 @@ Every year, the Texas Tribune developers salary data public offices all over Tex
 [San Antonio Restaurant Inspections Raw Feed](http://samhd.tx.gegov.com/San%20Antonio/search.cfm)                                                   
 The final example is one whose code we'll dig into a bit.  I found the San Antonio city's Food Establishment inspection database and saw immediately that it was good candidate to be scraped and then turned into an application.  The scraper runs weekly and writes CSVs that feed into a PostgreSQL.  The data is of interest to the general public but in a terrible format on the city's site.  I wanted to make the data more user friendly and use Django to do it.  
 
-**Public Data Sources** 
+**Public Data Sources**                                                         
 [Data.gov](http://www.data.gov/)                                                
 The site has tons of datasets, 150,000+, on every topic imaginable.  Data-Journalism types often express disappointment about how this site turned out.  (They expected more.)  But the site is definitely worth browsing.
 
