@@ -64,9 +64,6 @@ A comprehensive list of "open", public data.  The site has sources for governmen
 [FOIA](https://www.ifoia.org/)                                                 
 A 'FOIA' request is a formal request to a government agency asking them to send you a dataset.  It is literally asserting your right as a citizen to access public data that might not be readily available online.  This site walks you through the process of making a FOIA request.  It pre-generates a FOIA letter for you and will even send the letter to the appropriate government agency, if the agency exists within their database.  You can contribute information back to the community if your desired agency doesn't already exist in their database. You don't need to use iFOIA to generate your letter, either.  Having a template to follow does help, but, technically, there is not any required formal style that a FOIA letter must conform too.  
 
-
-[Restaurant Inspection Full Repo](https://github.com/sa-express-news/food_estab_inspecs)
-
 **Notes**
 
 1. [...chicagocrime.org was the first public Django-powered site not run by the Lawrence Journal-World.](http://www.holovaty.com/writing/chicagocrime.org-tribute/)
