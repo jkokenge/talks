@@ -30,18 +30,17 @@ This site grew out of the desire to report on every homicide in LA County.  So, 
 Sunlight is a non-profit, non-partisan foundation that uses technology, open data and traditional journalism to make government more accountable and transparent.  Some tools, among others, include Android/iOS applications for information about Congress, the Open States project that lets you "track state bills, get campaign and contact information for legislators and follow all the action across 50 states, D.C. and Puerto Rico," and, my favorite, the Influence Explorer.  Influence Explorer is a real-time money in politics tracker that aggregates many datasources covering political campaign finance, lobbying money (domestic and foreign), Federal spending including Federal contracts. The application also includes an API (and bulk data downloads) so you the data to power your own Django application.
 
 [Illinois State Board of Education Data](http://www.isbe.net/assessment/report_card.htm)                                 
-[Chicago Tribune School Report Card](http://schools.chicagotribune.com/)           
+[Chicago Tribune School Report Card](http://schools.chicagotribune.com/)
+The Chicago Tribune has it's own reprise of chicagocrime.org as well as many other Django offerings, but the one I like most in this context is their School Report Card application.  The raw data from the state of Illinois is an abysmal mishmash of links, PDFs and Excel spreadsheets.  And, the data is important. The application lets users compare one school to another on a couple fundamental demographic points.
+
+[Never Events](http://aidianholder.net/portfolio/projects/neverevents/)         
+[Inpatient Prospective Payment System](http://www.cms.gov/Medicare/Medicare-Fee-for-Service-Payment/AcuteinpatientPPS/index.html)  
 
 
 
 
 
 **Links**
-
-[Never Events](http://aidianholder.net/portfolio/projects/neverevents/)
-
-[Inpatient Prospective Payment System](http://www.cms.gov/Medicare/Medicare-Fee-for-Service-Payment/AcuteinpatientPPS/index.html)
-
 [Texas Tribune Salaries Explorer](http://salaries.texastribune.org/)
 
 [San Antonio Restaurant Inspections](restaurants.expressnews.com or some crazy amazon url)
