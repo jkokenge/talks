@@ -43,22 +43,19 @@ Every year, the Texas Tribune developers salary data public offices all over Tex
 [San Antonio Restaurant Inspections](restaurants.expressnews.com or some crazy amazon url)                                                                     
 [San Antonio Restaurant Inspectons](http://www.sanantonio.gov/Health/FoodLicensing/FoodEstablishmentInspections.aspx)                     
 [San Antonio Restaurant Inspections Raw Feed](http://samhd.tx.gegov.com/San%20Antonio/search.cfm)                                                   
-The final example is one whose code we'll dig into a bit.  I found the San Antonio city's Food Establishment inspection database and saw immediately that it was good candidate to be scraped and then turned into an application.  The scraper runs weekly and writes CSVs that feed into a PostgreSQL.  The data is of interest to the general public but in a terrible format on the city's site.  I wanted to make the data more user friendly and use Django to do it.    
+The final example is one whose code we'll dig into a bit.  I found the San Antonio city's Food Establishment inspection database and saw immediately that it was good candidate to be scraped and then turned into an application.  The scraper runs weekly and writes CSVs that feed into a PostgreSQL.  The data is of interest to the general public but in a terrible format on the city's site.  I wanted to make the data more user friendly and use Django to do it.  
 
+**Public Data Sources** 
+[Data.gov](http://www.data.gov/)                                                
+The site has tons of datasets, 150,000+, on every topic imaginable.  Data-Journalism types often express disappointment about how this site turned out.  (They expected more.)  But the site is definitely worth browsing.
 
+[Census Reporter](http://censusreporter.org/)                                 
+A Knight-Foundation funded project, this site does what does what the government census site, AmericanFactFinder, doesn't...make Census data useful to the average person in a beautiful and clear way.  If  you're interested in working with Census Data, this site is good place to start browsing.  You can easily see what's available in the data and maybe get some ideas. 
 
+[Raw Census Data](http://census.ire.org/)                                       Another great Census Data resource, this site grew from journalists' collective frustration with the virtually unusable [AmericanFactFinder](http://factfinder.census.gov/faces/nav/jsf/pages/index.xhtml).  The Census Data is presented in a raw format or via API in a clear and easily navigable way.  You can download the raw data, shapefiles or make REST calls.  
 
-
-**Links**
-[Data.gov](http://www.data.gov/)
-
-[Census Reporter](http://censusreporter.org/)
-
-[Census Data](http://census.ire.org/)
-
-[SF Open Data](https://data.sfgov.org/)
-
-[NYC MTA Data](http://web.mta.info/developers/developer-data-terms.html#data)
+[San Antonio GIS Data](http://www.sanantonio.gov/GIS/GISData.aspx)              
+Check your local government site to look for data they collect and distribute.  You might have to do some digging, but there's good chance they collect some data.  San Antonio distributes shapefiles for public use.  These files cover a variety of topics.  Some city goverments, like San Francisco, [SF Open Data](https://data.sfgov.org/), have large portals along the lines of the Federal government that contain many datasets.  Another good place to look is your local public transportation site.  New York City's Metropolitan Transit Authority (MTA) has all kinds of data about it's subway and bus system, [NYC MTA Data](http://web.mta.info/developers/developer-data-terms.html#data), see if your city has something similar.  
 
 [Sports Football Reference](http://www.pro-football-reference.com/)
 
