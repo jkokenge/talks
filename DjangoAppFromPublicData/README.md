@@ -38,8 +38,6 @@ Sunlight is a non-profit, non-partisan foundation that uses technology, open dat
 
 **Links**
 
-[Chicago Tribune School Report Card](http://schools.chicagotribune.com/)
-
 [Never Events](http://aidianholder.net/portfolio/projects/neverevents/)
 
 [Inpatient Prospective Payment System](http://www.cms.gov/Medicare/Medicare-Fee-for-Service-Payment/AcuteinpatientPPS/index.html)
