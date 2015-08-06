@@ -42,7 +42,7 @@ Every year, the Texas Tribune developers salary data public offices all over Tex
 
 [San Antonio Restaurant Inspections](restaurants.expressnews.com or some crazy amazon url)                                                                     
 [San Antonio Restaurant Inspectons](http://www.sanantonio.gov/Health/FoodLicensing/FoodEstablishmentInspections.aspx)                     
-[San Antonio Restaurant Inspections Raw Feed](http://samhd.tx.gegov.com/San%20Antonio/search.cfm)
+[San Antonio Restaurant Inspections Raw Feed](http://samhd.tx.gegov.com/San%20Antonio/search.cfm)                                                   
 [Restaurant Inspection Full Repo](https://github.com/sa-express-news/food_estab_inspecs)                                                        
 The final example is one whose code we'll dig into a bit.  I found the San Antonio city's Food Establishment inspection database and saw immediately that it was good candidate to be scraped and then turned into an application.  The scraper runs weekly and writes CSVs that feed into a PostgreSQL.  The data is of interest to the general public but in a terrible format on the city's site.  I wanted to make the data more user friendly and use Django to do it.  
 
