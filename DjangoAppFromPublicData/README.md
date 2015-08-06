@@ -42,7 +42,8 @@ Every year, the Texas Tribune developers salary data public offices all over Tex
 
 [San Antonio Restaurant Inspections](restaurants.expressnews.com or some crazy amazon url)                                                                     
 [San Antonio Restaurant Inspectons](http://www.sanantonio.gov/Health/FoodLicensing/FoodEstablishmentInspections.aspx)                     
-[San Antonio Restaurant Inspections Raw Feed](http://samhd.tx.gegov.com/San%20Antonio/search.cfm)                                                   
+[San Antonio Restaurant Inspections Raw Feed](http://samhd.tx.gegov.com/San%20Antonio/search.cfm)
+[Restaurant Inspection Full Repo](https://github.com/sa-express-news/food_estab_inspecs)                                                        
 The final example is one whose code we'll dig into a bit.  I found the San Antonio city's Food Establishment inspection database and saw immediately that it was good candidate to be scraped and then turned into an application.  The scraper runs weekly and writes CSVs that feed into a PostgreSQL.  The data is of interest to the general public but in a terrible format on the city's site.  I wanted to make the data more user friendly and use Django to do it.  
 
 **Public Data Sources**                                                         
@@ -57,18 +58,14 @@ A Knight-Foundation funded project, this site does what does what the government
 [San Antonio GIS Data](http://www.sanantonio.gov/GIS/GISData.aspx)              
 Check your local government site to look for data they collect and distribute.  You might have to do some digging, but there's good chance they collect some data.  San Antonio distributes shapefiles for public use.  These files cover a variety of topics.  Some city goverments, like San Francisco, [SF Open Data](https://data.sfgov.org/), have large portals along the lines of the Federal government that contain many datasets.  Another good place to look is your local public transportation site.  New York City's Metropolitan Transit Authority (MTA) has all kinds of data about it's subway and bus system, [NYC MTA Data](http://web.mta.info/developers/developer-data-terms.html#data), see if your city has something similar.  
 
-[Sports Football Reference](http://www.pro-football-reference.com/)
+[30 Places for Open Data](http://blog.visual.ly/data-sources)                   
+A comprehensive list of "open", public data.  The site has sources for government and political data, city specific data, international data from UNICEF and WHO, well-known data aggregators, social, sports, weather and many others.  Many of these datasets/data sites have various APIs that you could use to build applications around  
 
-[30 Places for Open Data](http://blog.visual.ly/data-sources)
+[FOIA](https://www.ifoia.org/)                                                 
+A 'FOIA' request is a formal request to a government agency asking them to send you a dataset.  It is literally asserting your right as a citizen to access public data that might not be readily available online.  This site walks you through the process of making a FOIA request.  It pre-generates a FOIA letter for you and will even send the letter to the appropriate government agency, if the agency exists within their database.  You can contribute information back to the community if your desired agency doesn't already exist in their database. You don't need to use iFOIA to generate your letter, either.  Having a template to follow does help, but, technically, there is not any required formal style that a FOIA letter must conform too.  
 
-[FOIA](https://www.ifoia.org/)
 
 [Restaurant Inspection Full Repo](https://github.com/sa-express-news/food_estab_inspecs)
-
-[Readme Link](https://github.com/jkokenge/talks/tree/master/DjangoAppFromPublicData)
-
-
-
 
 **Notes**
 
