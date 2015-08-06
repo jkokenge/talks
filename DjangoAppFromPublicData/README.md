@@ -38,19 +38,18 @@ The Chicago Tribune has it's own reprise of chicagocrime.org as well as many oth
 Aidian Holder is a developer/journalist who's worked for a number television stations.  This application deals with what Medicare calls "Never Events", events that should never happen in a hospital setting but nevertheless do happen.  The data comes from CMS.gov (which is a great place to get alot of data!).  Like the the Illinois school data, the CMS data is pretty much unusable by 'normal' people.  This application makes lets users quickly and easily find which hospitals have a higher incidents of these "Never Events" compared to their peers.  (This dataset is no longer updated by Medicare. The information has been folded into another dataset and tracked there.)
 
 [Texas Tribune Salaries Explorer](http://salaries.texastribune.org/)            
-Every year, the Texas Tribune developers salary data public offices all over Texas.  Their salaries application organizes this information by office and lets users sift, browse and filter the data.  On the surface, this application is straightforward, like all the others, the real work here is normalizing the many different datasets and compensation structures.  But, you could easily take one office, a large city government for example, and start there.  
+Every year, the Texas Tribune developers salary data public offices all over Texas.  Their salaries application organizes this information by office and lets users sift, browse and filter the data.  On the surface, this application is straightforward, like all the others, the real work here is normalizing the many different datasets and compensation structures.  But, you could easily take one office, a large city government for example, and start there.
+
+[San Antonio Restaurant Inspections](restaurants.expressnews.com or some crazy amazon url)                                                                     
+[San Antonio Restaurant Inspectons](http://www.sanantonio.gov/Health/FoodLicensing/FoodEstablishmentInspections.aspx)                     
+[San Antonio Restaurant Inspections Raw Feed](http://samhd.tx.gegov.com/San%20Antonio/search.cfm)                                                   
+adfkl;ajsdfkl;jkl;f ajsdfkl; askjdfl;   
 
 
 
 
 
 **Links**
-[San Antonio Restaurant Inspections](restaurants.expressnews.com or some crazy amazon url)
-
-[San Antonio Restaurant Inspectons](http://www.sanantonio.gov/Health/FoodLicensing/FoodEstablishmentInspections.aspx)
-
-[San Antonio Restaurant Inspections Raw Feed](http://samhd.tx.gegov.com/San%20Antonio/search.cfm)
-
 [Data.gov](http://www.data.gov/)
 
 [Census Reporter](http://censusreporter.org/)
