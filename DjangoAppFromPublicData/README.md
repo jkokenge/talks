@@ -40,7 +40,7 @@ Aidian Holder is a developer/journalist who's worked for a number television sta
 [Texas Tribune Salaries Explorer](http://salaries.texastribune.org/)            
 Every year, the Texas Tribune developers salary data public offices all over Texas.  Their salaries application organizes this information by office and lets users sift, browse and filter the data.  On the surface, this application is straightforward, like all the others, the real work here is normalizing the many different datasets and compensation structures.  But, you could easily take one office, a large city government for example, and start there.
 
-[San Antonio Restaurant Inspections](restaurants.expressnews.com or some crazy amazon url)                                                                     
+[SAEN Application-San Antonio Restaurant Inspections](http://inspections.elasticbeanstalk.com/)                                                                     
 [San Antonio Restaurant Inspectons](http://www.sanantonio.gov/Health/FoodLicensing/FoodEstablishmentInspections.aspx)                     
 [San Antonio Restaurant Inspections Raw Feed](http://samhd.tx.gegov.com/San%20Antonio/search.cfm)                                                   
 [Restaurant Inspection Full Repo](https://github.com/sa-express-news/food_estab_inspecs)                                                        
