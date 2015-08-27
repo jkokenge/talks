@@ -20,6 +20,12 @@ Ten years later, a list of companies that use Django reads like a Who's Who of t
 
 The common theme running through all public data serving Django applications, from chicagocrime.org through to the present day, is that they essentially digest the raw public data and make it easier for mass consumption.  We'll see this theme again and again as we look at examples of Django applications that serve public data.  The applications will all look different, but their basic functionality is the same regardless of the origin of the data which backs them.
 
+**To Deploy or Not to Deploy?**
+
+Having an application in mind whose scope is manageable, eminently manageable even, as is an application based on public data, lets you devote time and energy to deployment.  And, this step, while sometimes painful, is an important one in the application development process...maybe the most important one.   It's easy to continue to work and rework an application, test, add features, optimize and refactor and never get around to deploying. If you've developed a blog platform, a ToDo list, then it's easy to just keep working on the application and never feel motivated to deploy.  But, no matter how modest your public data driven application, there will be folks in your community who find your application interesting and useful.  I guarantee it.  You'll hear feedback.  You'll get praise, comments and some complaints.  This dialogue will add to your personal sense of satisfaction as well as give you motivation and ideas for enhancements and new features.  
+
+In developing the Express-News' restaurant inspection application, I estimate I spent 50+ hours developing the actual application...maybe a bit more.  But, the deployment process itself was an additional 25+ or so.  I came from a Rails background before and an applications I worked on were deployed by others, so, for me, the deployment process was extremely educational.  I deployed the initial version of the application on AWS Elasticbeanstalk but found this tutorial [Full Stack Python Guide to Deployment](http://www.fullstackpython.com/deployment.html) extremely useful.  It's a great walk-through deploying a Flask application to Linode using [Ansible](http://www.ansible.com/home) and incorporating a CI server with [Jenkins](https://jenkins-ci.org/). 
+
 **Links**
 
 [LA Times Homicide Application](http://homicide.latimes.com/)                
