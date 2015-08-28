@@ -26,7 +26,7 @@ Having an application in mind whose scope is manageable, eminently manageable ev
 
 In developing the Express-News' restaurant inspection application, I estimate I spent 50+ hours developing the actual application...maybe a bit more.  But, the deployment process itself was an additional 25+ or so.  I came from a Rails background before and an applications I worked on were deployed by others, so, for me, the deployment process was extremely educational.  I deployed the initial version of the application on AWS Elasticbeanstalk but found this tutorial [Full Stack Python Guide to Deployment](http://www.fullstackpython.com/deployment.html) extremely useful.  It's a great walk-through deploying a Flask application to Linode using [Ansible](http://www.ansible.com/home) and incorporating a CI server with [Jenkins](https://jenkins-ci.org/). 
 
-**Links**
+**Example Django applications made from public data**
 
 [LA Times Homicide Application](http://homicide.latimes.com/)                
 This site grew out of the desire to report on every homicide in LA County.  So, it's a database that was built by hand by reporters/developers at the Times.  But, you could do something similar with a FOIA request, made yearly, let's say, or every six months to your local police department.
